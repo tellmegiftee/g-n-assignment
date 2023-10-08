@@ -1,0 +1,201 @@
+body {
+  font-family: Karla;
+  max-width: 1440px;
+  min-width: 375px;
+  width: 375px;
+  margin: 20px auto;
+  background-color: rgb(4, 5, 5);
+}
+
+.background-block {
+  margin: auto 30px;
+  height: 570px;
+  padding: 60px 5px 80px;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.view-block {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 270px;
+  margin: auto;
+  padding: 0;
+  border-radius: 6px;
+  box-shadow: 0 10px 1.5rem rgba(116, 147, 155, 0.3);
+}
+
+.top-box {
+  background-color: #ffff;
+  padding-top: 8px;
+  padding-left: 30px;
+}
+
+.community {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+ }
+
+ .hassel {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: -2px;
+  color: hsl(71, 73%, 54%);
+
+ }
+
+ .access {
+   font-size: 12px; 
+   font-weight: 400;
+   margin-bottom: 22px;
+   line-height: 22px;
+   color: hsl(218, 22%, 67%);
+ }
+
+  .forth {
+    display: none;
+  }
+
+
+ .bottom-boxes {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.sub-tier {
+  flex: 1;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  background-color: rgb(27, 182, 182);
+}
+
+.dollar {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 22px;
+  margin-bottom: 5px;
+  color: hsl(204, 43%, 93%);
+ }
+
+ .value {
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 4px;
+  margin-bottom: 0;
+  color: hsl(204, 43%, 93%);
+  vertical-align: middle;
+ }
+
+ .monthly {
+  font-size: 12px;
+  font-weight: 200;
+  margin-bottom: 0;
+  color: hsl(204, 43%, 93%);
+  opacity: 0.8;
+ }
+
+ .full {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -8px;
+  padding-bottom: 10px;
+  color: hsl(204, 43%, 93%);
+ }
+
+ button {
+  
+  font-size: 14px;
+  font-weight: 400;
+  margin: auto 0;
+  width: 200px;
+  height: 38px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 0.5px;
+  box-shadow: 1px 5px 0.9rem rgb(13, 139, 129);
+  border-color: rgba(13, 139, 129, 0.7); 
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  }
+
+.why-tier {
+  flex: 1;
+  font-size: 11px;
+  font-weight: 200;
+  margin-left: -8px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  line-height: 16px;
+  color: hsl(204, 43%, 93%);
+  background-color: rgb(77, 186, 186);
+}
+ 
+ .tutorials {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 22px;
+ }
+
+
+
+ @media only screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    
+  }
+  
+  .background-block {
+    padding: 120px 120px 12px;
+    margin:  60px 160px 38px;
+    height: 500px;
+
+  }
+  
+  .view-block {
+    margin: auto;
+    padding: 0;
+    width: 500px;
+    box-shadow: 0 10px 1.5rem rgba(116, 147, 155, 0.3);
+  }
+  
+  .top-box {
+    padding-top: 22px;
+  }
+
+  .access {
+    line-height: 20px;
+  }
+
+ 
+  .forth {
+    display: initial;
+  }
+    
+
+  .bottom-boxes {
+   flex-direction: row;
+ }
+ 
+ .sub-tier {
+   padding-bottom: 32px;
+ }
+ 
+ .dollar {
+   margin-top: 32px;
+   margin-bottom: 2px;
+  }
+ 
+ 
+  button {
+   width: 185px;
+   }
+  
+  .tutorials {
+   margin-top: 32px;
+  }
+  
+   }
+  
+   
+ 
